@@ -1,0 +1,485 @@
+body {
+	background-color: #000000;
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+@font-face {
+	font-family: Cairo-Light;
+	src: url(../fonts/Cairo-Light.ttf);
+}
+
+@font-face {
+	font-family: Cairo-Bold;
+	src: url(../fonts/Cairo-Bold.ttf);
+}
+
+@font-face {
+	font-family: Cairo-Regular;
+	src: url(../fonts/Cairo-Regular.ttf);
+}
+
+@font-face {
+	font-family: Cairo-SemiBold;
+	src: url(../fonts/Cairo-SemiBold.ttf);
+}
+
+
+/*  ############################################*/
+
+.logo-netfilx {
+	padding-top: 3%;
+	text-align: center;
+}
+
+.logo-netfilx img {
+	width: 30%;
+	overflow: hidden;
+}
+
+
+/* ################################################### */
+
+.bg-light {
+	background: none !important;
+	height: 0px;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	margin-top: 3%;
+}
+
+.navbar-light .navbar-brand {
+	width: 13%;
+	margin-left: 2%;
+}
+
+.btn:not(:disabled):not(.disabled) {
+	background-color: #c31b1b;
+	border: none;
+	font-size: 18px;
+	margin-right: 2%;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+	border: 1px solid #fff;
+}
+
+
+/*##################################################  */
+
+.our-logo {
+	height: 700px;
+	background-image: url(../img/netfilx.jpg);
+}
+
+.our-logo .over-lay {
+	height: 700px;
+	background-color: rgba(20, 20, 20, .9);
+}
+
+.our-logo .over-lay .watch-next {
+	margin-top: 18%;
+	margin-left: 4%;
+}
+
+.our-logo .over-lay .watch-next .next {
+	color: #fff;
+	font-size: 98px;
+	font-family: Cairo-Bold;
+}
+
+.our-logo .over-lay .watch-next .any-time {
+	margin-top: 1%;
+	color: #fff;
+	font-size: 35px;
+	font-family: Cairo-Light;
+}
+
+.our-logo .over-lay .watch-next .join {
+	width: 26%;
+	color: #fff;
+	padding: 1%;
+	border: none;
+	border-radius: 3px;
+	font-size: 19px;
+	background-color: #c31b1b;
+	font-family: Cairo-Regular;
+	cursor: pointer;
+}
+
+
+/*  ############################################*/
+
+.communcation {
+	padding-top: 3%;
+	background-color: #141414;
+	border-bottom: 2px solid #3d3d3d;
+}
+
+.communcation .cancle-online {
+	text-align: center;
+	cursor: pointer;
+}
+
+.communcation .cancle-online:hover {
+	border-bottom: 2px solid #c31b1b;
+}
+
+.communcation .cancle-online:hover .icon {
+	color: #fff;
+}
+
+.communcation .cancle-online:hover .text {
+	color: #fff;
+}
+
+.communcation .cancle-online .icon {
+	font-size: 45px;
+	color: #3d3d3d;
+}
+
+.communcation .cancle-online .text {
+	font-size: 18px;
+	font-family: Cairo-SemiBold;
+	color: #6d717d;
+	margin-top: 3%;
+}
+
+
+/*  #########################################*/
+
+.commitments {
+	padding-top: 5%;
+	padding-bottom: 8%;
+}
+
+.commitments .problem .problem-text {
+	font-size: 25px;
+	font-family: Cairo-Bold;
+	color: #fffff6;
+}
+
+.commitments .problem .join-problem {
+	width: 45%;
+	color: #fff;
+	padding: 2%;
+	border: none;
+	border-radius: 3px;
+	font-size: 19px;
+	background-color: #c31b1b;
+	font-family: Cairo-Regular;
+	cursor: pointer;
+}
+
+
+/* ########################################### */
+
+.devices,
+.tables {
+	padding-top: 3%;
+}
+
+.devices .shows p,
+.tables .shows p {
+	font-size: 25px;
+	font-family: Cairo-Bold;
+	color: #fffff6;
+}
+
+.devices .shows .shows-join,
+.tables .shows .shows-join {
+	width: 56%;
+	color: #fff;
+	padding: 2%;
+	border: none;
+	border-radius: 3px;
+	font-size: 19px;
+	background-color: #c31b1b;
+	font-family: Cairo-Regular;
+	cursor: pointer;
+}
+
+.devices .apps {
+	margin-top: 3%;
+}
+
+.devices .apps .device {
+	text-align: center;
+}
+
+.devices .apps .device .sceern {
+	width: 100%;
+	overflow: hidden;
+}
+
+.devices .apps .device h3 {
+	color: #fff7b6;
+	font-family: Cairo-SemiBold;
+	font-size: 25px;
+	margin-top: 3%;
+}
+
+.devices .apps .device .device-text {
+	color: #87949c;
+	font-size: 18px;
+	font-family: Cairo-Regular;
+}
+
+
+/* ##################################### */
+
+.tables .counting {
+	margin-top: 6%;
+}
+
+.table thead th {
+	color: #FFF;
+	border-bottom: none;
+}
+
+.tables .counting .table tr {
+	color: #727272;
+}
+
+.tables .counting .table th {
+	font-size: 18px;
+	font-family: Cairo-Bold;
+}
+
+.table td,
+.table th {
+	border-top: none;
+	font-family: Cairo-SemiBold;
+}
+
+.tables .counting .table .available {
+	background-color: #222222;
+}
+
+
+/* ############################################### */
+
+.footer {
+	padding-bottom: 2%;
+	background-color: #000000;
+}
+
+.footer h3 {
+	padding-top: 4%;
+	color: #828282;
+	font-size: 20px;
+}
+
+.footer .list {
+	padding: 0px;
+	margin-top: 4%;
+	display: inline-block;
+}
+
+.footer .list .link {
+	list-style: none;
+	margin-top: 8%;
+	font-size: 17px;
+	font-family: Cairo-Light;
+	color: #828282;
+}
+
+.footer .lang {
+	width: 15%;
+	padding: 1%;
+	background: none;
+	border: 1px solid #ddd;
+	color: #828282;
+	cursor: pointer;
+}
+
+.footer .lang .globe {
+	margin-right: 10%;
+}
+
+.footer .lang .down {
+	margin-left: 10%;
+}
+
+
+/*  ################################# end page one ###########################*/
+
+
+/* ######################## start page two################################ */
+
+.secrch {
+	padding-top: 2%;
+	text-align: center;
+}
+
+.secrch h2 {
+	color: #fff;
+	font-family: Cairo-Bold;
+	display: inline-block;
+}
+
+.secrch .input-group {
+	margin-top: 1%;
+	width: 50%;
+	left: 26%;
+	border-right: 5px;
+}
+
+.search-icon {
+	color: #9f9f9f;
+	font-size: 20px;
+	display: inline-block;
+	background-color: #222222;
+	padding: 1%;
+	border-radius: 5px;
+	margin-left: 1%;
+}
+
+
+/*  ######################################################*/
+
+.movies {
+	padding-top: 3%;
+	padding-bottom: 4%;
+}
+
+.movies .poster {
+	position: relative;
+	cursor: pointer;
+	margin-top: 3%;
+}
+
+.movies .poster .img-poster {
+	width: 100%;
+	overflow: hidden;
+}
+
+.movies .poster .poster-overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(34, 34, 34, .8);
+	display: none;
+	transition: all ease-in-out .4s;
+}
+
+.movies .poster:hover .poster-overlay {
+	display: block;
+}
+
+.movies .poster .poster-overlay .info {
+	padding: 0px;
+	display: inline-block;
+	width: 100%;
+}
+
+.movies .poster .poster-overlay .info .type {
+	list-style: none;
+	background-color: #222222;
+	color: #ffffff;
+	padding: 2%;
+	margin-top: 4%;
+	font-family: Cairo-Light;
+	font-size: 18px;
+}
+
+.movies .poster .poster-overlay .info .type .blod {
+	font-weight: bold;
+	color: #c31b1b;
+}
+
+.movies .poster .poster-overlay .btutton {
+	display: inline-block;
+	margin-top: 8%;
+	margin-left: 2%;
+	padding: 2%;
+	width: 46%;
+	text-align: center;
+	background-color: #c31b1b;
+	font-family: Cairo-Light;
+	border-radius: 10px;
+}
+
+.movies .poster .poster-overlay .watch {
+	font-size: 18px;
+	color: #fff;
+	font-family: Cairo-Light;
+	text-decoration: none;
+}
+
+.movies .poster .poster-overlay .more-info {
+	margin-top: 13%;
+	display: inline-block;
+	text-align: center;
+	background-color: #c31b1b;
+	padding: 2%;
+	width: 100%;
+}
+
+.movies .poster .poster-overlay .more-info a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-family: Cairo-SemiBold;
+}
+
+
+/* ###################################################### */
+
+.story-flim {
+	margin-top: 5%;
+	background-color: #000;
+	border: 1px solid #c31b1b;
+}
+
+.story-flim .img-flim {
+	width: 100%;
+	overflow: hidden;
+}
+
+.story-flim .decsription {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	border-top: 1px solid #ddd;
+}
+
+.story-flim .decsription p {
+	color: #929292;
+	font-size: 18px;
+	font-family: Cairo-SemiBold;
+}
+
+.story-flim .decsription .main-vote {
+	margin-top: 2%;
+	display: inline-block;
+}
+
+.story-flim .decsription .rateing {
+	font-family: Cairo-Bold;
+	font-size: 22px;
+	color: #929292;
+}  
+
+.story-flim .decsription .rate-icons .icons {
+	color: #c31b1b;
+	font-size: 18px;
+}
+
+.story-flim .decsription  .downloaded {
+	display: block;
+	padding: 1%;
+	width: 100%;
+	background-color: #c31b1b;
+	font-size: 20px;
+	color: #fff;
+	font-family: Cairo-SemiBold;
+	border: none;
+	margin-top: 5%;
+	cursor: pointer;
+}
